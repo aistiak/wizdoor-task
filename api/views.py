@@ -13,13 +13,6 @@ def index(request):
     return JsonResponse(res.data,safe=False)
 
 
-# @csrf_exempt
-# def order_list(request):
-#     if request.method == 'GET':
-#         products = Order.objects.all()
-#         response = OrderSerializer(products,many=True)
-#         return JsonResponse(response.data,safe=False) 
-#         # pass  
 @csrf_exempt
 def product_list(request):
     if request.method == 'GET':
