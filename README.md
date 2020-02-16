@@ -11,12 +11,24 @@ The end points are
       
 #docker 
 you can also get the docker image and run the project 
-(i)   pull ther docker image 
-      docker pull aistiak/wizdoor_task:firsttry
-(ii)  then run       
-      docker run -p 8001:8001 wizdoor_task 
-(iii) the endpoints are 
-       http://localhost:8001/api/products
-       http://localhost:8001/api/category/count 
-       http://localhost:8001/api/customers 
+<ul>
+      <li>
+            (i)   pull ther docker image <br>
+            docker pull aistiak/wizdoor_task:firsttry
+      </li>
+      <li>
+            (ii)  then run       <br>
+            docker run -p 8001:8001 wizdoor_task      
+      </li>
+      
+      <li>
+            (iii) the endpoints are <br>
+             http://localhost:8001/api/products <br>
+             http://localhost:8001/api/category/count <br> 
+             http://localhost:8001/api/customers  <br>    
+      </li>
+</ul>
+
+
+
 
