@@ -28,7 +28,7 @@ you can also get the docker image and run the project
       </li>
       <li>
             (ii)  then run       <br>
-            docker run -p 8001:8001 <pulled_image_id>    
+            docker run -p 8001:8001 pulled_image_id     
       </li>
       <li>
             (iii) the endpoints are <br>
