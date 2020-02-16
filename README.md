@@ -9,7 +9,7 @@ The end points are
       
 <br>      
       
-#docker 
+<h2>#docker </h2><br>
 you can also get the docker image and run the project 
 <ul>
       <li>
@@ -20,7 +20,6 @@ you can also get the docker image and run the project
             (ii)  then run       <br>
             docker run -p 8001:8001 wizdoor_task      
       </li>
-      
       <li>
             (iii) the endpoints are <br>
              http://localhost:8001/api/products <br>
